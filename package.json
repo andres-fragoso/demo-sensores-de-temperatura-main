@@ -15,12 +15,14 @@
   "dependencies": {
     "@amcharts/amcharts4": "^4.10.39",
     "@amcharts/amcharts5": "^5.10.5",
+    "@aspnet/signalr": "^1.1.2",
     "@aws-sdk/client-location": "^3.654.0",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@microsoft/signalr": "^7.0.0",
     "@quasar/extras": "^1.16.4",
     "axios": "^1.2.1",
     "leaflet": "^1.9.4",
@@ -31,17 +33,17 @@
     "vue": "^3.4.18",
     "vue-i18n": "^9.0.0",
     "vue-router": "^4.0.12",
-    "vue3-leaflet": "^1.0.50",
-    "@aspnet/signalr":"^1.1.2",
-    "@microsoft/signalr":"^7.0.0"
+    "vue3-leaflet": "^1.0.50"
   },
   "devDependencies": {
+    "@eslint/js": "^9.30.0",
     "@intlify/vite-plugin-vue-i18n": "^3.3.1",
     "@quasar/app-vite": "^1.9.0",
     "autoprefixer": "^10.4.2",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-vue": "^9.0.0",
+    "eslint-plugin-vue": "^9.33.0",
+    "globals": "^16.3.0",
     "postcss": "^8.4.14",
     "prettier": "^2.5.1",
     "vite-plugin-checker": "^0.7.1"
